@@ -46,12 +46,12 @@ const Resultado = () => {
     return (
         <div id="Resultado">
             <h1>Resultado do Quiz</h1>
-            <h2>Usuários da sala:   |   Placar:</h2>
+            <h2>Usuários da sala:</h2>
             {players.length > 0 ? (
                 <ul>
                     {players.map((player, index) => (
                         <li key={index}>
-                            <strong>{player.name}</strong> {player.isAdmin && "(Admin)"}    |   0
+                            <strong>{player.name}</strong> {player.isAdmin && "(Admin)"}
                         </li>
                     ))}
                 </ul>

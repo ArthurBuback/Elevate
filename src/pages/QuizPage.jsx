@@ -78,7 +78,8 @@ const QuizPage = () => {
     };
 
     const handleFinishQuiz = () => {
-        navigate(`/resultado/${score}/${quiz.questions.length}`);
+        //navigate(`/resultado/${score}/${quiz.questions.length}`);
+        navigate(`/resultado/${salaId}`);
     };
 
     if (loading) return <div>Carregando quiz...</div>;

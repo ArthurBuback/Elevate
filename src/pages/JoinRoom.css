@@ -1,0 +1,55 @@
+.join-room {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    color: black;
+}
+
+.join-room h2 {
+    margin-bottom: 1rem;
+}
+
+.instructions {
+    margin-bottom: 2rem;
+    color: #666;
+    font-size: 0.9rem;
+    line-height: 1.4;
+}
+
+.input-group {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.input-group label {
+    font-weight: bold;
+    text-align: left;
+}
+
+.input-group input {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: black;
+}
+
+.join-room button {
+    margin-top: 1rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.join-room button:hover {
+    background-color: #45a049;
+} 

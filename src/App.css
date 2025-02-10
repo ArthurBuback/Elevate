@@ -1,0 +1,12 @@
+ .App {
+    text-align: center; /*Alinha texto ao centro*/
+    padding-top: 3rem;      /*Afasta do topo da tela*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .App h1{
+    margin-bottom: 2rem;
+ }
